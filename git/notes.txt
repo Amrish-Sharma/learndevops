@@ -1,0 +1,23 @@
+Concepts:
+- There are three areas in git 
+	- workspace
+	- staging area
+	- local repository
+	- remote repository
+- We always move the files between workspace->staging->local->remote
+- workspace to staging is moved by 'git add' command
+- staging to local repository moved by 'git commit -m "commit message"' command
+- local to remote repo is moved by git push
+
+- remote to local repository is moved by git pull/git fetch
+
+
+
+Different Commands
+
+1. git init
+=> git init command initialises the existing local repository
+
+2. git commit
+=> git commit, saves your changes to local repository(if done on local system)
+
